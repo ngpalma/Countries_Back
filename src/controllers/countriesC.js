@@ -20,7 +20,7 @@ const createDbCountries = async () => {
         continent: country.region,
         capital: country.capital,
         subregion: country.subregion,
-        area: country.area.length ? country.area : "No Area",
+        area: country.area,
         population: country.population,
       },
     });
