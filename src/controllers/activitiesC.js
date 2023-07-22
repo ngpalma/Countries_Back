@@ -6,7 +6,7 @@ const postActivity = async (name, difficulty, season, duration, countries) => {
       name,
       duration,
       difficulty,
-      season,
+      season
     },
   });
   if (countries && countries.length > 0) {
